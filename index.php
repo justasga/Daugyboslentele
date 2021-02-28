@@ -21,9 +21,9 @@
         <td>8</td>
         <td>9</td>
     </tr> -->
-    <table border="1">
+    <!-- <table border="1">
 
-<?php
+    
 
     // $i = 0;
 
@@ -40,17 +40,17 @@
 
     // }
         
-        for ($a = 1; $a < 11; $a++) {
-            echo "<tr>";
+    //     for ($a = 1; $a < 11; $a++) {
+    //         echo "<tr>";
             
-                for($b=1; $b<11; $b++)
-                {
-                ($a==$b) ? $bg = "gray" : $bg = "white";
-                echo "<td class='$bg'><a href='#' title='$a x $b = ". $a * $b . " ' >" . $a*$b . " </a></td>";                }
-                echo "</tr>";
-            }
-            ?>
-    </table>
+    //             for($b=1; $b<11; $b++)
+    //             {
+    //             ($a==$b) ? $bg = "gray" : $bg = "white";
+    //             echo "<td class='$bg'><a href='#' title='$a x $b = ". $a * $b . " ' >" . $a*$b . " </a></td>";                }
+    //             echo "</tr>";
+    //         }
+    //         
+    // </table>
         
 
 
