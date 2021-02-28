@@ -52,7 +52,21 @@
     //         
     // </table>
         
+<?php
 
+    if (($_POST['txtTime'])) {
+        echo "<h2>";
+
+        $t = $_POST['txtTime'];
+
+        for ($q = 1; $q < 13; $q++ ) {
+           echo $q. " x " .$t. " = " .$q * $t. "<br>"; 
+        }
+
+    }
+
+
+?>
 
 
 </body>
